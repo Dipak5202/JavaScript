@@ -1,60 +1,42 @@
 
-let a = 10.5;
-console.log(a)
 
 
-const student = {
-    namee: "dipak",
-    age:26
+// var , let ,   const
+
+//let
+
+let name = "Dipak"
+let age =  27
+let isMarride = true
+
+let something // undefined
+
+something= 12 // now its number type
+
+
+//const
+
+const Days = 31
+// Days = 34 // cant possible to assign new value its const
+
+
+// var 
+
+// var and let are the same only diffrent is var scope is global and for let is block scope
+
+//global
+{
+    //block
+    var a= "var"
+    let b= "let"
+    const c = "const"
+
+    console.log(a); // global scope  block
+    console.log(b); // block scope  block
+    console.log(c); // block scope   block
 }
-console.log(student)
 
-let arr = [3,6,4,7,9,1,5]
+console.log(a); // global scope  global
+console.log(b); // block scope   global
+console.log(c); // block scope   global
 
-// arr.forEach((val)=>{
-//     console.log(val)
-// })
-
-// let result = arr.map((val) => {
-//     return val * val
-// })
-
-// console.log(result)
-
-let stuarr = [{
-    fullname : "Dipak",
-    age : 26
-},
-{
-    fullname : "sagar",
-    age : 37
-},
-{
-    fullname : "ajit",
-    age :34
-}]
-
-//foreach
-stuarr.forEach((val)=>{
-    console.log(val.fullname)
-})
-
-//map
-let names = stuarr.map(val =>{
-    return val.fullname
-})
-
-console.log(names)
-
-//filter
-let oparr = stuarr.filter(val=>{
-    return val.age > 30
-})
-
-console.log(oparr)
-
-//reduce
-const op = arr.reduce((result,val)=>{
-    return result + val
-})
-console.log(op)

@@ -1,0 +1,40 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    width: 400px;
+    height: 300px;
+    background-color: green;
+}
+.pink {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+}
+
+.blue{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+.yellow {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.black {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+.red {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}

@@ -1,0 +1,27 @@
+.container {
+    border: 1px solid #ccc;
+    padding: 100px;
+    margin: 16px 0;
+}
+
+.item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.item:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    /* add this button to right bottom corner*/
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
