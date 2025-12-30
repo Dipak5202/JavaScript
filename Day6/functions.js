@@ -1,4 +1,4 @@
-debugger
+// debugger
 message()
 //will return a greeting message
 function greet(name = "Guest",lastname) {
@@ -14,7 +14,7 @@ console.log(greet("Alice","Chaudhari"));
 function message(){
     const d = 12
     console.log("Adding numbers...");
-    greet("John", "Doe");
+    console.log(greet("John", "Doe"))
 }
 
 console.log(message()); // This will log undefined because the function does not return a value

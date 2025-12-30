@@ -9,7 +9,7 @@ names.push("sfgsfvd")
 names.push("sfgsdfsdcsfvd")
 
 console.log(names);
-names.pop()
+// names.pop()
 console.log(names);
 
 const data = ["Dipak",27,true,null]

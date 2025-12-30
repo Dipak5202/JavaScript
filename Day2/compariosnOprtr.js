@@ -8,6 +8,6 @@ console.log(option1 == option2);  //true // doing implicite (automatic) converst
 
 console.log(option1  === option2); // false checking type also
 
-console.log(option1  === parseInt(option2)); // true // explicite conversion (manula)
+console.log(option1  === parseInt(option2)); // true // explicite conversion (manul)
 
 console.log( 12 !== "12" );

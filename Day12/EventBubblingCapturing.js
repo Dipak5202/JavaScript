@@ -8,7 +8,7 @@ const blueDiv = document.querySelector('.blue');
 
 greenDiv.addEventListener('click', (event) => {
     console.log('Green Div Clicked');
-    event.stopPropagation(); // Stops the event from bubbling up to parent elements
+    // event.stopPropagation(); // Stops the event from bubbling up to parent elements
 });
 
 pinkDiv.addEventListener('click', (event) => {

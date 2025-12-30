@@ -5,7 +5,7 @@ btn.addEventListener("click", function() {
     document.body.style.backgroundColor = "lightblue";
 
     divo = document.createElement("div");
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 3; i++) {
         const p = document.createElement("p");
         p.textContent = `This is paragraph number ${i + 1} inside the div.`;
         p.style.color = "blue";
